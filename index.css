@@ -519,10 +519,20 @@ a:hover {
     display: none;
   }
 
+  .grid-3 {
+    display:none;
+  }
+
   .grid-left, .grid-2, .grid-3, .grid-4 {
     height:140px;
     font-size: 0.9em;
     padding-top: 40px;
   }
+
+  .description {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+
 
 }
