@@ -123,7 +123,6 @@ html, body {
   text-decoration: none;
 }
 
-
 #carousel-example-generic {
   margin-top: 140px;
   border-left: solid black 3px;
@@ -330,7 +329,6 @@ a:hover {
   border-top: 3px white solid;
   padding-bottom: 230px;
   height: 200px;
-
 }
 
 .description {
@@ -373,35 +371,35 @@ a:hover {
 }
 
 .apple {
-    flex: 50%;
-    color: black;
-    border-left: 3px black solid;
-    border-bottom: 3px black solid;
-    font-size: 1.3em;
-    padding-top: 75px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: #CD5C5C;
-  }
+  flex: 50%;
+  color: black;
+  border-left: 3px black solid;
+  border-bottom: 3px black solid;
+  font-size: 1.3em;
+  padding-top: 75px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #CD5C5C;
+}
 
-  .avocado {
-    flex: 50%;
-    color: black;
-    font-size: 1.3em;
-    line-height: 30px;
-    border-left: 3px black solid;
-    border-bottom: 3px black solid;
-    border-right: 3px black solid;
-    line-height: 30px;
-    padding-top: 75px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: #D8AE48;
-  }
+.avocado {
+  flex: 50%;
+  color: black;
+  font-size: 1.3em;
+  line-height: 30px;
+  border-left: 3px black solid;
+  border-bottom: 3px black solid;
+  border-right: 3px black solid;
+  line-height: 30px;
+  padding-top: 75px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #D8AE48;
+}
 
 .column-footer-right {
   flex: 50%;
@@ -436,17 +434,17 @@ a:hover {
 }
 
 .carousel-control.left {
-    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,.0001) 100%);
-    background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
-    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,00001)));
-    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%) !important;
+  background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,.0001) 100%);
+  background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+  background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,00001)));
+  background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%) !important;
 }
 
 .carousel-control.right {
-    background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,.0001) 100%);
-    background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
-    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,00001)));
-    background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%) !important;
+  background-image: -webkit-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,.0001) 100%);
+  background-image: -o-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+  background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,0)),to(rgba(0,0,0,00001)));
+  background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%) !important;
 }
 
 @media screen and (max-width: 900px) {
@@ -465,12 +463,10 @@ a:hover {
 
 .grid-left img {
   padding-bottom: 50px;
-
 }
 
 .grid-2 img {
   padding-bottom: 50px;
-
 }
 
 .grid-3 img {
@@ -483,15 +479,15 @@ a:hover {
 }
 
 .column {
-    border-bottom: 0px;
+  border-bottom: 0px;
 }
 
 .column-3 {
-    padding-left: 50px;
+  padding-left: 50px;
 }
 
 .column-4 {
-    padding-left: 40px;
+  padding-left: 40px;
 }
 
 .description {
@@ -508,45 +504,45 @@ a:hover {
 
 @media screen and (max-width: 650px) {
 
-  .middle {
-    font-size: 1.1em;
-    height: 270px;
+.middle {
+  font-size: 1.1em;
+  height: 270px;
   }
 
-  .grid-left img {
-    display: none;
+.grid-left img {
+  display: none;
   }
 
-  .grid-2 img {
-    display: none;
+.grid-2 img {
+  display: none;
   }
 
-  .grid-3 img {
-    display: none;
+.grid-3 img {
+  display: none;
   }
 
-  .grid-4 img {
-    display: none;
+.grid-4 img {
+  display: none;
   }
 
-  .grid-4 img {
-    display: none;
+.grid-4 img {
+  display: none;
   }
 
-  .grid-3 {
-    display:none;
-  }
+.grid-3 {
+  display:none;
+}
 
-  .grid-left, .grid-2, .grid-3, .grid-4 {
-    height:140px;
-    font-size: 0.9em;
-    padding-top: 40px;
-  }
+.grid-left, .grid-2, .grid-3, .grid-4 {
+  height:140px;
+  font-size: 0.9em;
+  padding-top: 40px;
+}
 
-  .description {
-    font-size: 1em;
-    line-height: 1.5em;
-  }
+.description {
+  font-size: 1em;
+  line-height: 1.5em;
+}
 
 }
 
@@ -565,4 +561,5 @@ a:hover {
 
 .container {
   height: 450px;
+}
 }
