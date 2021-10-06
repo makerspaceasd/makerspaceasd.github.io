@@ -5,7 +5,7 @@ html, body {
   margin: 0;
   height:100%;
   min-height: 100%;
-  width:100%;
+  width: 100%;
   font-family: 'IBM Plex Mono', monospace;
   cursor:url(), auto;
   cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='55' height='66' viewport='0 0 100 100' style='fill:black;font-size:33px;'><text y='50%'>👋</text></svg>") 16 0,auto; /*!emojicursor.app*/
@@ -125,22 +125,22 @@ html, body {
 
 #carousel-example-generic {
   margin-top: 140px;
-  border-left: solid black 3px;
-  border-right: solid black 3px;
+  border-left: 3px black solid;
+  border-right: 3px black solid;
 }
 
 .header, .grid {
-border-left: solid black 3px;
-border-right: solid black 3px;
+border-left: 3px black solid;
+border-right: 3px black solid;
 width: 100%;
 font-size: 16px;
 }
 
 .header {
-  position:fixed;
+  position: fixed;
   background-color: white;
-  top:0;
-  z-index:100;
+  top: 0;
+  z-index: 100;
 }
 
 /* Container for flexboxes */
@@ -171,13 +171,13 @@ a:hover {
 
 .double {
   height:100px;
-  border-bottom: 3px solid black;
-  border-left: 3px solid black;
-  border-right: 3px solid black;
+  border-bottom: 3px black solid;
+  border-left: 3px black solid;
+  border-right: 3px black solid;
 }
 
 .double-right {
-  border-left: 3px solid black;
+  border-left: 3px black solid;
   width: 50%;
   display: inline-block;
 }
@@ -195,8 +195,8 @@ a:hover {
 .column-one {
   flex: 50%;
   padding: 20px;
-  border-left: black 3px solid;
-  border-bottom: black 3px solid;
+  border-left: 3px black solid;
+  border-bottom: 3px black solid;
   padding: 70px;
   background-color: white;
 }
@@ -204,9 +204,9 @@ a:hover {
  .column-two {
    flex: 50%;
    padding: 20px;
-   border-bottom: black 3px solid;
-   border-left: black 3px solid;
-   border-right: black 3px solid;
+   border-bottom: 3px black solid;
+   border-left: 3px black solid;
+   border-right: 3px black solid;
    padding: 70px;
  }
 
@@ -239,16 +239,16 @@ a:hover {
 
 .container {
   height: 550px;
-  margin-top:140px;
-  width:100%;
-  border-left: 3px solid black;
-  border-right: 3px solid black;
+  margin-top: 140px;
+  width: 100%;
+  border-left: 3px black solid;
+  border-right: 3px black solid;
 }
 
 .mindset img {
-    padding-top: 40px;
-    width: auto;
-    height: 500px;
+  padding-top: 40px;
+  width: auto;
+  height: 500px;
 }
 
 .grid-left img {
