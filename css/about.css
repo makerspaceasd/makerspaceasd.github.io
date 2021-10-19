@@ -373,6 +373,7 @@ h3 {
   padding: 90px;
   line-height: 1.8em;
   display: flex;
+  text-align: justify;
   border-top: 3px black solid;
   flex-wrap: wrap;
 }
@@ -606,7 +607,12 @@ h2 {
 
 .about {
   margin-top: 90px;
+  margin-bottom: 90px;
   font-size: 0.9em;
+  padding-left: 80px;
+  padding-right: 80px;
+  height: 600px;
+  text-align: justify;
 }
 
 .space img{
@@ -653,10 +659,6 @@ h2 {
   line-height: 1.5em;
 }
 
-.about {
-  height: 500px;
-  font-size: 1em;
-}
 
 }
 
@@ -664,6 +666,11 @@ h2 {
 
 .about {
   background-color: white;
-  height: 700px;
+  height: 600px;
+  font-size: 0.9em;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: justify;
+  margin-bottom: 20px;
 }
 }
