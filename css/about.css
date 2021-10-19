@@ -573,24 +573,45 @@ h3 {
 }
 
 .about {
-  height: 500px;
+  height: 400px;
 }
 
 @media screen and (max-width: 800px) {
-
-.mission {
-  display: none;
-}
 
 .space img{
   margin-top: 19px;
 }
 
+@media screen and (max-width: 750px) {
+
+.about {
+  height: 500px;
+}
+
+
 @media screen and (max-width: 650px) {
 
-  .space img{
+.description {
+  font-size: 0.9em;
+  line-height: 1.4em;
+}
+
+.container {
+  height: 450px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+.about {
+  margin-top: 90px;
+  font-size: 0.9em;
+}
+
+.space img{
     display: none;
-  }
+}
 
 .middle {
   font-size: 1.1em;
@@ -632,26 +653,17 @@ h3 {
   line-height: 1.5em;
 }
 
+.about {
+  height: 500px;
+  font-size: 1em;
 }
 
-@media screen and (max-width: 650px) {
-
-.description {
-  font-size: 0.9em;
-  line-height: 1.4em;
 }
 
-.container {
-  height: 450px;
-}
-
-h2 {
-  font-size: 2em;
-}
+@media screen and (max-width: 550px) {
 
 .about {
-  margin-top: 90px;
-  font-size: 0.9em;
+  background-color: white;
+  height: 700px;
 }
-
 }
