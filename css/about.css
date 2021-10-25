@@ -8,8 +8,7 @@ html, body {
   width: 100%;
   font-family: 'IBM Plex Mono', monospace;
   cursor:url(), auto;
-  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='55' height='66' viewport='0 0 100 100' style='fill:black;font-size:33px;'><text y='50%'>🧰</text></svg>") 16 0,auto; /*!emojicursor.app*/
-}
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='55' height='66' viewport='0 0 100 100' style='fill:black;font-size:33px;'><text y='50%'>⚠️</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
 * {
@@ -124,13 +123,6 @@ html, body {
   text-decoration: none;
 }
 
-.space img {
-width: 100%;
-height: auto;
-padding-top: 120px;
-display: inline-block;
-}
-
 #carousel-example-generic {
   margin-top: 140px;
   border-left: 3px black solid;
@@ -218,7 +210,7 @@ a:hover {
    padding: 70px;
  }
 
-.column-one img {
+ .column-one img {
    width: 100%;
    height: auto;
    padding-top: 20px;
@@ -251,12 +243,6 @@ a:hover {
   width: 100%;
   border-left: 3px black solid;
   border-right: 3px black solid;
-}
-
-.mindset img {
-  padding-top: 40px;
-  width: auto;
-  height: 500px;
 }
 
 .grid-left img {
@@ -357,25 +343,14 @@ a:hover {
   flex-wrap: wrap;
 }
 
-h2 {
-  padding-bottom: 10px;
-  color: cornflowerblue;
-}
-
-h3 {
-  color: orange;
-}
-
-.about {
+.safety-main {
+  background-color: white;
+  color: black;
   font-family: 'IBM Plex Mono', monospace;
-  height: 600px;
-  margin-bottom: 80px;
-  padding: 90px;
-  line-height: 1.8em;
+  height: 800px;
   display: flex;
-  text-align: justify;
-  border-top: 3px black solid;
   flex-wrap: wrap;
+  margin-top: 120px;
 }
 
 .tomato {
@@ -399,15 +374,15 @@ h3 {
   padding-left: 5%;
 }
 
-.about-left {
+.safety-left {
   flex: 50%;
-  background-color: orange;
   padding: 30px;
   padding-top: 60px;
+  background-color: cornflowerblue;
   color: black;
+  border-left: 3px white solid;
   border-bottom: 3px white solid;
-  border-right: 3px black solid;
-  font-size: 2em;
+  font-size: 16px;
   line-height: 20px;
   padding-left: 5%;
 }
@@ -455,15 +430,16 @@ h3 {
   border-bottom: 3px white solid;
 }
 
-.about-right {
+.safety-right {
   flex: 50%;
-  background-color: white;
   color: black;
   font-size: 14px;
   line-height: 25px;
   padding-top: 45px;
-  padding-left: 45px;
-  border-right: 3px white solid;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-right: 3px black solid;
+  border-left: 3px black solid;
   border-bottom: 3px white solid;
 }
 
@@ -471,14 +447,10 @@ h3 {
   padding-right: 100px;
 }
 
-.humans {
-  height:600px;
-  color: black;
-}
-
 .column-footer:first-child {
     border-left-width: 1px;
 }
+
 
 .carousel-caption {
   font-size: 12px;
@@ -505,10 +477,17 @@ h3 {
   background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%) !important;
 }
 
+@media screen and (max-width: 1100px) {
+
+.safety-main {
+height: 950px;
+}
+
+}
 
 @media screen and (max-width: 900px) {
 
-.column-left, .column-footer-left, .potato, .about-left {
+.column-left, .column-footer-left, .safety-left .potato {
   display: none;
 }
 
@@ -516,14 +495,8 @@ h3 {
   display: none;
 }
 
-.bottom, .about-main, .column-footer-right, .about-right. {
+.bottom, .column-footer-right, .safety, .safety-right {
     flex-direction: column;
-}
-
-.about-right {
-  height:600px;
-  display: block;
-  padding: 40px;
 }
 
 .grid-left img {
@@ -565,59 +538,21 @@ h3 {
   padding-top: 2%;
 }
 
-}
-
-@media screen and (max-width: 950px) {
-
-.mission {
+.safety-left {
   display: none;
 }
 
-.about {
-  height: 400px;
+.safety-right {
+  padding:80px;
 }
 
-@media screen and (max-width: 800px) {
-
-.space img{
-  margin-top: 19px;
+.safety-main {
+height: 800px;
 }
 
-@media screen and (max-width: 750px) {
-
-.about {
-  height: 500px;
 }
-
 
 @media screen and (max-width: 650px) {
-
-.description {
-  font-size: 0.9em;
-  line-height: 1.4em;
-}
-
-.container {
-  height: 450px;
-}
-
-h2 {
-  font-size: 2em;
-}
-
-.about {
-  margin-top: 90px;
-  margin-bottom: 90px;
-  font-size: 0.9em;
-  padding-left: 80px;
-  padding-right: 80px;
-  height: 600px;
-  text-align: justify;
-}
-
-.space img{
-    display: none;
-}
 
 .middle {
   font-size: 1.1em;
@@ -659,18 +594,26 @@ h2 {
   line-height: 1.5em;
 }
 
+.safety-main {
+height: 1000px;
+}
 
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
 
-.about {
-  background-color: white;
-  height: 600px;
+.description {
   font-size: 0.9em;
-  padding-left: 40px;
-  padding-right: 40px;
-  text-align: justify;
-  margin-bottom: 20px;
+  line-height: 1.4em;
+}
+
+.mindset img {
+    padding-top: 40px;
+    width: auto;
+    height: 400px;
+}
+
+.container {
+  height: 450px;
 }
 }
