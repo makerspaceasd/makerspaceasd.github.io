@@ -1,5 +1,6 @@
 # makerspaceasd.github.io
+ 
+Here's where you'll find all the code used to build the [Makerspace's website](http://makerspaceasd.github.io)! 🚀
 
-This is where we upload all the code for the Makerspace's website! 
 
-Check it out here: http://makerspaceasd.github.io 🚀
+Made with ❤️ by [Isabella Peralta](https://isabellaperalta.com/)
